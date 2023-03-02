@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula aluno</title>
+</head>
+<body>
+    <h2>Matricula aluno</h2>
+    <form action="https://github.com/willieJO/DW-Atividade-3">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="row">
+                <label placebook  for="name">Nome: </label>
+                <input placeholder="Nome" type="text">
+            </div>
+            <br>
+            <div class="row">
+                <label placebook for="Cof">CPF: </label>
+                <input placeholder="XXX-XXX-XXX-XX" type="text">
+            </div>
+            <div class="row">
+                <label placebook for="Data">Data de nascimento: </label>
+                <input type="date">
+            </div>
+            <div class="row">
+                <label placebook for="name">Sexo: </label>
+                <input type="radio" id="feminino" name="sexo" value="Feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="sexo" value="Masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div class="row">
+                <label placebook name="cidade" for="Cidade">Cidade: </label>
+                <input type="text">
+                <select for="Estados" id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados de matricula</legend>
+            <div class="row">
+                <label placebook for="Curso">Curso de matricula: </label>
+                <input type="radio" id="Analise" name="cursoMatricula" value="Analise e desenvolvimento de sistema">
+                <label for="Analise">Analise e desenvolvimento de sistema</label>
+                <input type="radio" id="Engenharia" name="cursoMatricula" value="Engenharia Mecanica">
+                <label for="Engenharia">Engenharia mecanica</label>
+                <input type="radio" id="internet" name="cursoMatricula" value="Sistema para a internet">
+                <label for="internet">Tecnologo em sistema para a internet</label>
+            </div>
+            <div class="row">
+                <label>Diciplinas Optativa: </label>
+                <br>
+                <input type="checkbox" id="robos">
+                <label for="robos">Programação de robos</label>
+                <input type="checkbox" id="IA">
+                <label for="IA">Desenvolvimento de inteligencias artificiais</label>
+                <br>
+                <input type="checkbox" id="mp">
+                <label for="mp">Modelagem computacional</label>
+                <input type="checkbox" id="ai">
+                <label for="ai">Ambientes isolados: desenvolvimento com Docker</label>
+            </div>
+            <div class="row">
+                <label>Sugestões de diciplinas futuras</label>
+                <br>
+                <textarea name="sugestao" id="sugestao" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
